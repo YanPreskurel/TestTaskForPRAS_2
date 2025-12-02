@@ -1,0 +1,41 @@
+﻿@model WhoWeArePage
+@{
+    var lang = Context.Request.Cookies["lang"] ?? "ru";
+    var trans = Model.Translations.FirstOrDefault(t => t.Language == lang) ?? Model.Translations.First();
+    ViewBag.Title = trans.Title;
+    var cases = ViewBag.Cases as List<Case>;
+}
+
+<section class="container">
+    <div class="breadcrumbs">
+        <ul>
+            <li><a href="/">Главная</a></li>
+        </ul>
+    </div>
+
+    <div class="content-text-split">
+        <div class="e-text">
+            <h1>@trans.Title</h1>
+            <div class="e-text-large">
+                @Html.Raw(trans.Content)
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <h1>Наши кейсы</h1>
+</section>
+
+<div class="cards m-type-2 m-type-2a">
+    @foreach (var c in cases)
+    {
+        var ct = c.Translations.FirstOrDefault(t => t.Language == lang) ?? c.Translations.First();
+        <a href="/case/details/@c.Id" class="cards__item">
+            <div class="e-status" style="color:@c.StatusColor">@ct.Status</div>
+            <h2>@ct.Title</h2>
+            <div class="e-location"><span class="flag-icon"><img src="@c.FlagImagePath" alt=""></span> @ct.Country <span class="e-sep">/</span> @ct.Organization</div>
+            <p>@ct.ShortDescription</p>
+        </a>
+    }
+</div>

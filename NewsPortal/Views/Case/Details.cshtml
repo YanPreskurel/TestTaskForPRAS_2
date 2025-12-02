@@ -1,0 +1,30 @@
+﻿@model Case
+@{
+    var lang = ViewBag.Lang as string;
+    var trans = Model.Translations.FirstOrDefault(t => t.Language == lang) ?? Model.Translations.First();
+    ViewBag.Title = trans.Title;
+}
+
+<section class="container">
+    <div class="breadcrumbs">
+        <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/case/list">Кейсы</a></li>
+        </ul>
+    </div>
+
+    <div class="section-article">
+        <div class="section-article__content">
+            <div class="section-article__head">
+                <h1>@trans.Title</h1>
+                <div class="e-details">
+                    <div class="e-details__type" style="color:@Model.StatusColor">@trans.Status</div>
+                    <div class="e-details__loc"><span class="flag-icon"><img src="@Model.FlagImagePath" alt=""></span> @trans.Country <span class="e-sep">/</span> @trans.Organization</div>
+                </div>
+            </div>
+            <div>
+                @Html.Raw(trans.FullDescription)
+            </div>
+        </div>
+    </div>
+</section>
