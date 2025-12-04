@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using NewsPortal.Data;
 
-public class CaseController : Controller
+public class CaseController : BaseController
 {
     private readonly AppDbContext _db;
 

@@ -32,6 +32,8 @@ D:\Commits\TestTaskForPRAS_2\NewsPortal\bin\Debug\net8.0\Microsoft.Extensions.De
 D:\Commits\TestTaskForPRAS_2\NewsPortal\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 D:\Commits\TestTaskForPRAS_2\NewsPortal\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
 D:\Commits\TestTaskForPRAS_2\NewsPortal\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Commits\TestTaskForPRAS_2\NewsPortal\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+D:\Commits\TestTaskForPRAS_2\NewsPortal\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
 D:\Commits\TestTaskForPRAS_2\NewsPortal\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 D:\Commits\TestTaskForPRAS_2\NewsPortal\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Commits\TestTaskForPRAS_2\NewsPortal\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
@@ -170,6 +172,7 @@ D:\Commits\TestTaskForPRAS_2\NewsPortal\obj\Debug\net8.0\staticwebassets.build.j
 D:\Commits\TestTaskForPRAS_2\NewsPortal\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Commits\TestTaskForPRAS_2\NewsPortal\obj\Debug\net8.0\staticwebassets.development.json
 D:\Commits\TestTaskForPRAS_2\NewsPortal\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Commits\TestTaskForPRAS_2\NewsPortal\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Commits\TestTaskForPRAS_2\NewsPortal\obj\Debug\net8.0\NewsPortal.csproj.Up2Date
 D:\Commits\TestTaskForPRAS_2\NewsPortal\obj\Debug\net8.0\NewsPortal.dll
 D:\Commits\TestTaskForPRAS_2\NewsPortal\obj\Debug\net8.0\refint\NewsPortal.dll

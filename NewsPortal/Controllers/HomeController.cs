@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using NewsPortal.Data;
 using System;
 
-public class HomeController : Controller
+public class HomeController : BaseController
 {
     private readonly AppDbContext _db;
 
