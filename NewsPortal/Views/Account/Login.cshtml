@@ -1,1 +1,48 @@
-﻿
+﻿@{
+    ViewData["Title"] = "Admin Login";
+}
+
+<div style="display:flex; justify-content:center; align-items:center; min-height:100vh; background:#eef2f7; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div style="width:100%; max-width:400px; padding:40px; background:#fff; border-radius:12px; box-shadow: 0 8px 25px rgba(0,0,0,0.1);">
+        <h2 style="text-align:center; color:#1E6F89; margin-bottom:30px; font-weight:600;">Admin Login</h2>
+
+        @if (ViewBag.Error != null)
+        {
+            <div style="background:#f8d7da; color:#721c24; padding:10px 15px; border-radius:6px; margin-bottom:20px;">
+                @ViewBag.Error
+            </div>
+        }
+
+        <form asp-action="Login" method="post">
+            <div style="margin-bottom:20px;">
+                <label for="email" style="font-weight:500;">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required
+                       style="width:100%; padding:12px; margin-top:5px; border:1px solid #ccc; border-radius:6px; outline:none; transition: 0.3s;" />
+            </div>
+
+            <div style="margin-bottom:25px;">
+                <label for="password" style="font-weight:500;">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password" required
+                       style="width:100%; padding:12px; margin-top:5px; border:1px solid #ccc; border-radius:6px; outline:none; transition:0.3s;" />
+            </div>
+
+            <button type="submit"
+                    style="width:100%; padding:12px; background:#1E6F89; color:white; border:none; border-radius:6px; font-weight:600; cursor:pointer; transition:0.3s;">
+                Login
+            </button>
+        </form>
+    </div>
+</div>
+
+<script>
+    // Плавный эффект фокуса на полях ввода
+    document.querySelectorAll('input').forEach(input => {
+        input.addEventListener('focus', () => input.style.borderColor = '#1E6F89');
+        input.addEventListener('blur', () => input.style.borderColor = '#ccc');
+    });
+
+    // Эффект наведения на кнопку
+    const btn = document.querySelector('button[type="submit"]');
+    btn.addEventListener('mouseover', () => btn.style.background = '#155c70');
+    btn.addEventListener('mouseout', () => btn.style.background = '#1E6F89');
+</script>

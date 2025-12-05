@@ -9,8 +9,14 @@ namespace NewsPortal.Data
         public DbSet<WhoWeArePage> WhoWeArePages { get; set; }
         public DbSet<AdminUser> AdminUsers { get; set; }
 
+        public DbSet<CallToActionBlock> CallToActionBlocks { get; set; }
+        public DbSet<CaseDocument> CaseDocuments { get; set; }
+        public DbSet<Lawyer> Lawyers { get; set; }
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<CaseNote> CaseNotes { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
     }
+
 }

@@ -1,5 +1,33 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@using NewsPortal.ViewModels
+@model HomeViewModel
+
+<section class="cta container">
+    <h2>@Model.CTA?.Title</h2>
+    <p>@Model.CTA?.Text</p>
+    <a href="/contact" class="btn btn-primary">@Model.CTA?.ButtonText</a>
+</section>
+
+@if (Model.Cases != null && Model.Cases.Any())
+{
+    <div class="cases container">
+        @foreach (var c in Model.Cases)
+        {
+            <div class="case-item">
+                <div class="e-status" style="color:@c.StatusColor;">
+                    @c.Status
+                </div>
+
+                <h3>@c.Title</h3>
+                <div class="e-location">
+                    <span class="flag-icon"><img src="@c.FlagImagePath" alt=""></span>
+                    @c.Country <span class="e-sep">/</span> @c.Organization
+                </div>
+                <p>@c.ShortDescription</p>
+
+                <a href="/case/details/@c.Id" class="btn btn-outline-primary">
+                    Read More
+                </a>
+            </div>
+        }
+    </div>
 }

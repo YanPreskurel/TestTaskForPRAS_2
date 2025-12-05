@@ -5,6 +5,4 @@
         public int Id { get; set; }
         public List<WhoWeArePageTranslation> Translations { get; set; } = new();
     }
-
-
 }

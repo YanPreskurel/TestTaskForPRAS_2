@@ -22,12 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\Views\Shared\" />
     <Folder Include="Resources\Views\Account\" />
     <Folder Include="Resources\Views\Case\" />
-    <Folder Include="Resources\Views\Home\" />
-    <Folder Include="wwwroot\uploads\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
 </Project>

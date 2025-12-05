@@ -17,6 +17,14 @@
         },
         "runtime": {
           "NewsPortal.dll": {}
+        },
+        "resources": {
+          "en/NewsPortal.resources.dll": {
+            "locale": "en"
+          },
+          "ru/NewsPortal.resources.dll": {
+            "locale": "ru"
+          }
         }
       },
       "Azure.Core/1.38.0": {

@@ -1,11 +1,27 @@
 ﻿@model Case
 @{
-    var lang = ViewBag.Lang as string;
-    var trans = Model.Translations.FirstOrDefault(t => t.Language == lang) ?? Model.Translations.First();
-    ViewBag.Title = trans.Title;
+    var lang = ViewBag.Lang as string ?? "ru";
+    var trans = Model.Translations.FirstOrDefault(t => t.Language == lang);
+    var full = new CaseFullDescription();
+
+    if (trans == null && Model.Translations.Any())
+    {
+        trans = Model.Translations.First();
+    }
+
+    if (trans != null)
+    {
+        ViewBag.Title = trans.Title;
+        full = trans.CaseFullDescription;
+    }
+    else
+    {
+        <text>Контент отсутствует</text>
+    }
 }
 
-<section class="container">
+
+<section class="container" style="text-align:left;">
     <div class="breadcrumbs">
         <ul>
             <li><a href="/">Главная</a></li>
@@ -17,13 +33,101 @@
         <div class="section-article__content">
             <div class="section-article__head">
                 <h1>@trans.Title</h1>
+                <div class="e-id">@full.MessageNumber</div>
+                <a href="#" class="btn-primary u-not-desktop">Получить консультацию</a>
                 <div class="e-details">
-                    <div class="e-details__type" style="color:@Model.StatusColor">@trans.Status</div>
-                    <div class="e-details__loc"><span class="flag-icon"><img src="@Model.FlagImagePath" alt=""></span> @trans.Country <span class="e-sep">/</span> @trans.Organization</div>
+
+                    <div class="e-details__type" style="color:@Model.StatusColor">@full.StatusText</div>
+
+                    <div class="e-details__loc">
+                        <span class="flag-icon"><img src="images/flags/England.png" alt=""></span>
+                        @trans.Country <span class="e-sep">/</span> @trans.Organization
+                    </div>
+
+                    <div>
+                        <div class="e-details__def"><span class="e-label">Тип:</span> @full.CaseType</div>
+                    </div>
                 </div>
+
             </div>
-            <div>
-                @Html.Raw(trans.FullDescription)
+
+            <div class="section-article__body">
+                <p>@full.Paragraph1</p>
+                <h2>@full.Section1Title</h2>
+                <p>@full.Section1Text</p>
+                <blockquote>@full.Quote</blockquote>
+                <p>@full.Paragraph2</p>
+                <p>@full.Note1</p>
+                <h2>@full.Section2Title</h2>
+                <p>@full.Section2Text</p>
+                <h3>@full.ListTitle</h3>
+                <ul>
+                    @foreach (var item in full.ListItems.Split('\n'))
+                    {
+                        <li>@item</li>
+                    }
+                </ul>
+                <p>@full.Paragraph3</p>
+
+                <div class="person-min-wrap u-after-load">
+                    @foreach (var lawyer in (List<Lawyer>)ViewBag.Lawyers)
+                    {
+                        var lw = lawyer.Translations.FirstOrDefault(t => t.Language == lang)
+                        ?? lawyer.Translations.First();
+
+                        <div class="person-min">
+                            <div class="person-min__vis">
+                                <img src="~/@lw.PhotoImagePath" alt="@lw.Name">
+                            </div>
+                            <div class="person-min__info">
+                                <div class="person-min__type">@lw.Position</div>
+                                <div class="person-min__name">@lw.Name</div>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <!-- ВСТАВЛЕНО: ПОЯСНЕНИЯ -->
+                <div class="section-article__notes u-after-load">
+                    @foreach (var note in (List<CaseNote>)ViewBag.Notes)
+                    {
+                        var n = note.Translations.FirstOrDefault(t => t.Language == lang)
+                        ?? note.Translations.First();
+
+                        <div class="section-article__note">
+                            <h5>@n.Title</h5>
+                            <p>@n.Text</p>
+                        </div>
+                    }
+                </div>
+
+                <h2>@full.DecisionTitle</h2>
+                <p>@full.DecisionText</p>
+                <p>Ссылка на дело: <a href="@full.DecisionLink"><strong>@full.DecisionLink</strong></a></p>                              
+
+                <h2>Документы по делу</h2>
+                <div class="docs-blocks">
+                    @foreach (var doc in (List<CaseDocument>)ViewBag.Documents)
+                    {
+                        var docTrans = doc.Translations.FirstOrDefault(t => t.Language == lang) ?? doc.Translations.First();
+                        <a href="@docTrans.FilePath" class="docs-blocks__item">
+                            <div class="e-type">Документ @docTrans.Type</div>
+                            <h3>@docTrans.Title</h3>
+                        </a>
+                    }
+                </div>
+
+                <div class="tags">
+                    <h4>Теги</h4>
+                    <ul>
+                        @foreach (var tag in (List<Tag>)ViewBag.Tags)
+                        {
+                            var tagTrans = tag.Translations.FirstOrDefault(t => t.Language == lang) ?? tag.Translations.First();
+                            <li><a href="#" style="border-color:@tag.Color; background:@tag.Color;">@tagTrans.Name</a></li>
+                        }
+                    </ul>
+                </div>
+             
             </div>
         </div>
     </div>

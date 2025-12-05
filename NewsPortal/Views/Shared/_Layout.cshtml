@@ -1,14 +1,25 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+@{
+    var currentLang = Context.Request.Cookies[CookieRequestCultureProvider.DefaultCookieName]?.Split('|')[0].Split('=')[1] ?? "ru";
+    var returnUrl = Context.Request.Path + Context.Request.QueryString;
+    if (string.IsNullOrEmpty(returnUrl)) returnUrl = "/";
+}
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>@ViewBag.Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="~/css/styles.css" />
 </head>
 <body>
-
     <div class="page-layout">
+
+        <!-- HEADER -->
         <div class="header">
             <div class="container">
                 <div class="logo">
@@ -18,90 +29,153 @@
                     </a>
                 </div>
 
-                <div class="header-aside">
+                <div class="header-aside" style="display:flex; align-items:center; gap:10px;">
+                    <!-- Language selector -->
                     <div class="lang-select">
                         <button class="lang-select__active" type="button">
-                            @(Context.Request.Cookies["lang"] == "en" ? "English" : "Русский")
+                            @(currentLang == "en" ? Localizer["English"] : Localizer["Russian"])
                         </button>
                         <ul class="lang-select__options">
-                            <li><a href="/language/set?lang=ru">Русский</a></li>
-                            <li><a href="/language/set?lang=en">English</a></li>
+                            <li class="@(currentLang == "ru" ? "active" : "")"><a href="#" data-culture="ru">@Localizer["Russian"]</a></li>
+                            <li class="@(currentLang == "en" ? "active" : "")"><a href="#" data-culture="en">@Localizer["English"]</a></li>
                         </ul>
                     </div>
+
+                    @if (User.Identity?.IsAuthenticated == true && User.IsInRole("Admin"))
+                    {
+                        <form asp-controller="Admin" asp-action="Logout" method="post" style="margin:0;">
+                            @Html.AntiForgeryToken()
+                            <button class="btn btn-secondary">Logout</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <a href="/Account/Login" class="btn btn-primary">Admin Login</a>
+                    }
+
+
+                    <!-- Кнопка меню -->
                     <button class="header-nav-icon" type="button"></button>
                 </div>
 
-                <div class="header-nav">
-                    <div class="logo">
-                        <a href="/">
-                            <span class="logo__name">Vadim Drozdov</span>
-                            <span class="logo__info">law office</span>
-                        </a>
+
+            <!-- NAVIGATION -->
+            <div class="header-nav">
+                <div class="logo">
+                    <a href="/">
+                        <span class="logo__name">Vadim Drozdov</span>
+                        <span class="logo__info">law office</span>
+                    </a>
+                </div>
+                <div class="container">
+                <button class="header-nav-icon" type="button"></button>
+                    <div class="header-nav__mid">
+                        <nav class="header-nav__links">
+                            <ul>
+                                <li><a href="/">@Localizer["Home"]</a></li>
+                                <li><a href="/case/list">@Localizer["Cases"]</a></li>
+                                <li><a href="/who-we-are">@Localizer["WhoWeAre"]</a></li>
+                                <li><a href="/services">@Localizer["Services"]</a></li>
+                                <li><a href="/contact">@Localizer["Contacts"]</a></li>
+                            </ul>
+                        </nav>
+                        <div class="soc-icons">
+                            <a href="#" class="soc-icon soc-icon__fb">Facebook</a>
+                            <a href="#" class="soc-icon soc-icon__instag">Instagram</a>
+                            <a href="#" class="soc-icon soc-icon__linked">Linkedin</a>
+                            <a href="#" class="soc-icon soc-icon__tw">Twitter</a>
+                        </div>
                     </div>
-                    <div class="container">
-                        <button class="header-nav-icon" type="button"></button>
-                        <div class="header-nav__mid">
-                            <nav class="header-nav__links">
-                                <ul>
-                                    <li><a href="/case/list">Кейсы</a></li>
-                                    <li><a href="/#">Вакансии</a></li>
-                                    <li><a href="/#">Услуги</a></li>
-                                    <li><a href="/#">Кто мы</a></li>
-                                    <li><a href="/#">Задать вопрос</a></li>
-                                    <li><a href="/#">Контакты</a></li>
-                                </ul>
-                            </nav>
-                            <div class="soc-icons">
-                                <a href="#" class="soc-icon soc-icon__fb">Facebook</a>
-                                <a href="#" class="soc-icon soc-icon__instag">Instagram</a>
-                                <a href="#" class="soc-icon soc-icon__linked">Linkedin</a>
-                                <a href="#" class="soc-icon soc-icon__tw">Twitter</a>
+
+                    <div class="header-nav__foot">
+                        <div style="display:flex; justify-content:space-between; align-items:center; width:100%;">
+                            <div class="header-nav__email">
+                                <a href="mailto:info@vadimdrozdov.ch">info@vadimdrozdov.ch</a>
+                            </div>
+                            <div class="header-nav__lang">
+                                <div class="lang-select">
+                                    <button class="lang-select__active" type="button">
+                                        @(currentLang == "en" ? Localizer["English"] : Localizer["Russian"])
+                                    </button>
+                                    <ul class="lang-select__options">
+                                        <li class="@(currentLang == "ru" ? "active" : "")"><a href="#" data-culture="ru">@Localizer["Russian"]</a></li>
+                                        <li class="@(currentLang == "en" ? "active" : "")"><a href="#" data-culture="en">@Localizer["English"]</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
-        <div class="content">
+        <!-- CONTENT -->
+            <div class="content">
             @RenderBody()
         </div>
 
+        <!-- FOOTER -->
         <div class="footer">
             <div class="container">
-                <div class="footer__top">
+                <div class="footer__top" style="display:flex; justify-content:space-between; align-items:center;">
                     <nav class="footer__nav">
                         <ul>
-                            <li><a href="/case/list">Кейсы</a></li>
-                            <li><a href="#">Услуги</a></li>
-                            <li><a href="#">Задать вопрос</a></li>
-                            <li><a href="#">Вакансии</a></li>
-                            <li><a href="#">Кто мы</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="/case/list">@Localizer["Cases"]</a></li>
+                            <li><a href="/services">@Localizer["Services"]</a></li>
+                            <li><a href="/contact">@Localizer["AskQuestion"]</a></li>
+                            <li><a href="/vacancies">@Localizer["Vacancies"]</a></li>
+                            <li><a href="/who-we-are">@Localizer["WhoWeAre"]</a></li>
+                            <li><a href="/contact">@Localizer["Contacts"]</a></li>
                         </ul>
                     </nav>
-                    <div class="lang-select">
-                        <button class="lang-select__active" type="button">
-                            @(Context.Request.Cookies["lang"] == "en" ? "English" : "Русский")
-                        </button>
-                        <ul class="lang-select__options">
-                            <li><a href="/language/set?lang=ru">Русский</a></li>
-                            <li><a href="/language/set?lang=en">English</a></li>
-                        </ul>
+                    <div style="display:flex; align-items:center; gap:20px;">
+                        <div class="footer__email">
+                            <a href="mailto:info@vadimdrozdov.ch">info@vadimdrozdov.ch</a>
+                        </div>
+                        <div class="footer__lang">
+                            <div class="lang-select">
+                                <button class="lang-select__active" type="button">
+                                    @(currentLang == "en" ? Localizer["English"] : Localizer["Russian"])
+                                </button>
+                                <ul class="lang-select__options">
+                                    <li class="@(currentLang == "ru" ? "active" : "")"><a href="#" data-culture="ru">@Localizer["Russian"]</a></li>
+                                    <li class="@(currentLang == "en" ? "active" : "")"><a href="#" data-culture="en">@Localizer["English"]</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="footer__email">
-                    <a href="mailto:info@vadimdrozdov.ch">info@vadimdrozdov.ch</a>
+                <div class="footer__bottom">
+                    <div class="e-copy">&copy; Company NoName 1996-2020</div>
+                    <a href="#" class="e-design">Разработка дизайна ― компания PRAS</a>
                 </div>
             </div>
-            <div class="footer__bottom">
-                <div class="e-copy">&copy; Company NoName 1996-2020</div>
-                <a href="#" class="e-design">Разработка дизайна ― компания PRAS</a>
-            </div>
         </div>
+
+        <!-- Hidden forms to switch language -->
+        <form id="form-ru" asp-controller="Culture" asp-action="SetCulture" method="post" style="display:none;">
+            <input type="hidden" name="culture" value="ru" />
+            <input type="hidden" name="returnUrl" value="@returnUrl" />
+        </form>
+        <form id="form-en" asp-controller="Culture" asp-action="SetCulture" method="post" style="display:none;">
+            <input type="hidden" name="culture" value="en" />
+            <input type="hidden" name="returnUrl" value="@returnUrl" />
+        </form>
+
     </div>
 
+    <script>
+        // Universal language switcher for all blocks
+        document.querySelectorAll('.lang-select__options a').forEach(function(link){
+            link.addEventListener('click', function(e){
+                e.preventDefault();
+                var culture = this.dataset.culture;
+                document.getElementById('form-' + culture).submit();
+            });
+        });
+    </script>
+
     <script src="~/js/scripts.js"></script>
+</div>
 </body>
 </html>

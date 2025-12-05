@@ -1,41 +1,98 @@
-﻿@model WhoWeArePage
+﻿@model NewsPortal.ViewModels.HomeViewModel
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
 @{
-    var lang = Context.Request.Cookies["lang"] ?? "ru";
-    var trans = Model.Translations.FirstOrDefault(t => t.Language == lang) ?? Model.Translations.First();
-    ViewBag.Title = trans.Title;
-    var cases = ViewBag.Cases as List<Case>;
+    var lang = Model.CurrentLanguage;
+    var trans = Model.WhoWeAre.Translations.FirstOrDefault(t => t.Language == lang)
+                ?? Model.WhoWeAre.Translations.FirstOrDefault();
+    var isAdmin = User.Identity?.IsAuthenticated == true && User.IsInRole("Admin");
+
+    var cases = Model.Cases;
+    var cta = Model.CTA;
 }
 
 <section class="container">
     <div class="breadcrumbs">
         <ul>
-            <li><a href="/">Главная</a></li>
+            <li><a href="/">@Localizer["Breadcrumbs_Home"]</a></li>
         </ul>
     </div>
 
-    <div class="content-text-split">
-        <div class="e-text">
-            <h1>@trans.Title</h1>
-            <div class="e-text-large">
-                @Html.Raw(trans.Content)
+    <!-- СДЕЛАНО flex-start для content-text-split -->
+    <div class="content-text-split" style="display:flex; justify-content:flex-start; gap:40px;">
+        <div class="e-text" style="text-align:left; max-width:800px;">
+            <h1>
+                @trans.Title
+                @if (isAdmin)
+                {
+                    <a href="@Url.Action("EditWhoWeAre", "Admin", new { id = Model.WhoWeAre.Id, lang })"
+                       class="btn btn-sm btn-warning ml-2">Edit</a>
+                }
+            </h1>
+
+            <div class="e-text-large" style="text-align:left;">
+                <p>@trans.Description1</p>
+                <p>@trans.Description2</p>
+
+                <h2>@trans.SectionTitle</h2>
+                <p>@trans.SectionText1</p>
+                <p>@trans.SectionText2</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="container">
-    <h1>Наши кейсы</h1>
-</section>
+<!-- ============================= -->
+<!-- БЛОК КЕЙСОВ -->
+<!-- ============================= -->
+@if (cases != null && cases.Any())
+{
+    <section class="section-grey">
+        <div class="content">
+            <section class="container" style="text-align:left;">
+                <h1>@Localizer["Cases"]</h1>
+            </section>
 
-<div class="cards m-type-2 m-type-2a">
-    @foreach (var c in cases)
-    {
-        var ct = c.Translations.FirstOrDefault(t => t.Language == lang) ?? c.Translations.First();
-        <a href="/case/details/@c.Id" class="cards__item">
-            <div class="e-status" style="color:@c.StatusColor">@ct.Status</div>
-            <h2>@ct.Title</h2>
-            <div class="e-location"><span class="flag-icon"><img src="@c.FlagImagePath" alt=""></span> @ct.Country <span class="e-sep">/</span> @ct.Organization</div>
-            <p>@ct.ShortDescription</p>
-        </a>
-    }
-</div>
+            <div class="cards m-type-2 m-type-2a">
+                @foreach (var c in cases)
+                {
+                    <a href="/case/details/@c.Id" class="cards__item">
+                        <div class="e-status" style="color:@c.StatusColor;">@c.Status</div>
+                        <h2>@c.Title</h2>
+                        <div class="e-location">
+                            <span class="flag-icon"><img src="@c.FlagImagePath" alt="" /></span>
+                            @c.Country <span class="e-sep">/</span> @c.Organization
+                        </div>
+                        <p>@c.ShortDescription</p>
+                    </a>
+                }
+            </div>
+        </div>
+    </section>
+}
+
+<!-- ============================= -->
+<!-- БЛОК CTA (Задать вопрос) -->
+<!-- ============================= -->
+@if (cta != null)
+{
+    <section class="section-question">
+        <section class="container" style="text-align:left;">
+            <h1>@cta.Title</h1>
+            <div class="content-text-split" style="display:flex; justify-content:flex-start; gap:40px;">
+                <div class="e-text" style="text-align:left; max-width:800px;">
+                    <p>@cta.Text</p>
+                </div>
+                <div class="e-aside">
+                    <a href="/contact" class="btn-primary">@cta.ButtonText</a>
+                </div>
+            </div>
+
+            @if (isAdmin)
+            {
+                <a href="@Url.Action("EditCTA", "Admin")" class="btn btn-warning btn-sm">Edit CTA</a>
+            }
+        </section>
+    </section>
+}

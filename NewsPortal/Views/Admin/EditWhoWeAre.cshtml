@@ -1,0 +1,40 @@
+﻿@model WhoWeArePageTranslation
+
+<h2>Edit "Who We Are" - @Model.Language</h2>
+
+<form asp-action="EditWhoWeAre" method="post">
+    <input type="hidden" name="id" value="@Model.WhoWeArePageId" />
+    <input type="hidden" name="lang" value="@Model.Language" />
+
+    <div class="form-group">
+        <label>Title</label>
+        <textarea asp-for="Title" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label>Description 1</label>
+        <textarea asp-for="Description1" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label>Description 2</label>
+        <textarea asp-for="Description2" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label>Section Title</label>
+        <textarea asp-for="SectionTitle" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label>Section Text 1</label>
+        <textarea asp-for="SectionText1" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label>Section Text 2</label>
+        <textarea asp-for="SectionText2" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
