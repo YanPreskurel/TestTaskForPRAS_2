@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NewsPortal.Data;
+using NewsPortal.Interfaces;
 using NewsPortal.Models;
 
 namespace NewsPortal.Repositories

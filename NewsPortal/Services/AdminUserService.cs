@@ -1,5 +1,5 @@
-﻿using NewsPortal.Models;
-using NewsPortal.Repositories;
+﻿using NewsPortal.Interfaces;
+using NewsPortal.Models;
 using System.Security.Cryptography;
 using System.Text;
 

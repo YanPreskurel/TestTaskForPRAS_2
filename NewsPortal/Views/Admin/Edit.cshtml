@@ -1,0 +1,113 @@
+﻿@model NewsPortal.ViewModels.CaseViewModel
+
+@{
+    ViewData["Title"] = "Редактировать кейс";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="row">
+        <!-- Левая колонка: русский -->
+        <div class="col-md-6">
+            <h4>Русский перевод</h4>
+            <input type="hidden" name="RU.Language" value="ru" />
+
+            <div class="form-group">
+                <label>Название кейса</label>
+                <input name="RU.Title" class="form-control" value="@Model.RU.Title" />
+            </div>
+
+            <div class="form-group">
+                <label>Краткое описание</label>
+                <textarea name="RU.ShortDescription" class="form-control">@Model.RU.ShortDescription</textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Страна</label>
+                <input name="RU.Country" class="form-control" value="@Model.RU.Country" />
+            </div>
+
+            <div class="form-group">
+                <label>Организация</label>
+                <input name="RU.Organization" class="form-control" value="@Model.RU.Organization" />
+            </div>
+
+            <div class="form-group">
+                <label>Статус</label>
+                <input name="RU.Status" class="form-control" value="@Model.RU.Status" />
+            </div>
+
+            <hr />
+            <h5>Полное описание (RU)</h5>
+            <div class="form-group">
+                <label>Номер сообщения</label>
+                <input name="RU.FullDescription.MessageNumber" class="form-control" value="@Model.RU.FullDescription.MessageNumber" />
+            </div>
+            <div class="form-group">
+                <label>Абзац 1</label>
+                <textarea name="RU.FullDescription.Paragraph1" class="form-control">@Model.RU.FullDescription.Paragraph1</textarea>
+            </div>
+            <!-- Остальные поля FullDescription аналогично -->
+        </div>
+
+        <!-- Правая колонка: английский -->
+        <div class="col-md-6">
+            <h4>English Translation</h4>
+            <input type="hidden" name="EN.Language" value="en" />
+
+            <div class="form-group">
+                <label>Title</label>
+                <input name="EN.Title" class="form-control" value="@Model.EN.Title" />
+            </div>
+
+            <div class="form-group">
+                <label>Short Description</label>
+                <textarea name="EN.ShortDescription" class="form-control">@Model.EN.ShortDescription</textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Country</label>
+                <input name="EN.Country" class="form-control" value="@Model.EN.Country" />
+            </div>
+
+            <div class="form-group">
+                <label>Organization</label>
+                <input name="EN.Organization" class="form-control" value="@Model.EN.Organization" />
+            </div>
+
+            <div class="form-group">
+                <label>Status</label>
+                <input name="EN.Status" class="form-control" value="@Model.EN.Status" />
+            </div>
+
+            <hr />
+            <h5>Full Description (EN)</h5>
+            <div class="form-group">
+                <label>Message Number</label>
+                <input name="EN.FullDescription.MessageNumber" class="form-control" value="@Model.EN.FullDescription.MessageNumber" />
+            </div>
+            <div class="form-group">
+                <label>Paragraph 1</label>
+                <textarea name="EN.FullDescription.Paragraph1" class="form-control">@Model.EN.FullDescription.Paragraph1</textarea>
+            </div>
+            <!-- Остальные поля FullDescription аналогично -->
+        </div>
+    </div>
+
+    <hr />
+    <div class="form-group">
+        <label>Флаг (URL)</label>
+        <input name="FlagImagePath" class="form-control" value="@Model.FlagImagePath" />
+    </div>
+
+    <div class="form-group">
+        <label>Цвет статуса</label>
+        <input name="StatusColor" type="color" class="form-control" value="@Model.StatusColor" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Сохранить</button>
+    <a href="@Url.Action("Index", "Case")" class="btn btn-secondary">Отмена</a>
+</form>

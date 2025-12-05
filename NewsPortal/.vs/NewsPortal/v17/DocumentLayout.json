@@ -3,112 +3,224 @@
   "WorkspaceRootPath": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\admin\\editwhoweare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\admin\\editwhoweare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\case\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\case\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\case\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\case\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\resources\\views\\home\\index.en.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:resources\\views\\home\\index.en.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\icalltoactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\icalltoactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\calltoactionrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\calltoactionrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\viewmodels\\caseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:viewmodels\\caseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\caserepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\caserepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\icaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\icaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\casetranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\casetranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\casenotetranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\casenotetranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\casenote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\casenote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\casedocumenttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\casedocumenttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\casedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\casedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\case.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\case.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\services\\adminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:services\\adminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\whowearepagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\whowearepagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\iwhowearepagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\iwhowearepagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\calltoactionblocktranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\calltoactionblocktranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\lawyerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\lawyerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\casenoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\casenoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\calltoactionrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\calltoactionrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\casedocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\casedocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\viewmodels\\caseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:viewmodels\\caseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\controllers\\casecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:controllers\\casecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\viewmodels\\casefulldescriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:viewmodels\\casefulldescriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\services\\adminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:services\\adminuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\resources\\views\\home\\index.en.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:resources\\views\\home\\index.en.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\controllers\\culturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:controllers\\culturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\interfaces\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:interfaces\\itagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\tagtranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\tagtranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\casetranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\casetranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\case\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\case\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\case\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\case\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\casenotetranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\casenotetranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\case.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\case.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\interfaces\\icaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:interfaces\\icaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\views\\admin\\editwhoweare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:views\\admin\\editwhoweare.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\resources\\views\\shared\\_layout.ru.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:resources\\views\\shared\\_layout.ru.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\resources\\views\\home\\index.ru.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:resources\\views\\home\\index.ru.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\interfaces\\icasenoterepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:interfaces\\icasenoterepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\lawyertranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\lawyertranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\casedocumenttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\casedocumenttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\resources\\views\\shared\\_layout.en.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:resources\\views\\shared\\_layout.en.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\lawyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\lawyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\casedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\casedocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\interfaces\\ilawyerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:interfaces\\ilawyerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\interfaces\\icasedocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:interfaces\\icasedocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\interfaces\\icalltoactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:interfaces\\icalltoactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\interfaces\\iwhowearepagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:interfaces\\iwhowearepagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\interfaces\\iadminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:interfaces\\iadminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\casenote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\casenote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\whowearepagetranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,60 +231,12 @@
       "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\whowearepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\controllers\\casecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:controllers\\casecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\tagtranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\tagtranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\lawyertranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\lawyertranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\lawyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\lawyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\calltoactionblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\calltoactionblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:models\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\services\\libretranslateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:services\\libretranslateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\services\\itranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:services\\itranslationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\adminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|d:\\commits\\testtaskforpras_2\\newsportal\\repositories\\iadminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E08BC790-C8B2-47D8-885E-0323FEC52F69}|NewsPortal.csproj|solutionrelative:repositories\\iadminuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -182,8 +246,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CaseRepository .cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CaseRepository .cs",
+              "RelativeDocumentMoniker": "Repositories\\CaseRepository .cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CaseRepository .cs",
+              "RelativeToolTip": "Repositories\\CaseRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:52:04.708Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAiwCsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:58:59.76Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Edit.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T10:14:59.144Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T10:14:38.191Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
@@ -206,46 +326,357 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\Repository.cs",
+              "RelativeToolTip": "Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:58:59.76Z",
+              "WhenOpened": "2025-12-05T07:52:00.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditWhoWeAre.cshtml",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Admin\\EditWhoWeAre.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\EditWhoWeAre.cshtml",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Admin\\EditWhoWeAre.cshtml",
-              "RelativeToolTip": "Views\\Admin\\EditWhoWeAre.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\TagRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TagRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\TagRepository.cs",
+              "RelativeToolTip": "Repositories\\TagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:57:14.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WhoWeArePageRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\WhoWeArePageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\WhoWeArePageRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\WhoWeArePageRepository.cs",
+              "RelativeToolTip": "Repositories\\WhoWeArePageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T21:32:29.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LawyerRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\LawyerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\LawyerRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\LawyerRepository.cs",
+              "RelativeToolTip": "Repositories\\LawyerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:57:00.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CaseNoteRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CaseNoteRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CaseNoteRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CaseNoteRepository.cs",
+              "RelativeToolTip": "Repositories\\CaseNoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:08:14.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminUserRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\AdminUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AdminUserRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\AdminUserRepository.cs",
+              "RelativeToolTip": "Repositories\\AdminUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:51:44.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CallToActionRepository .cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CallToActionRepository .cs",
+              "RelativeDocumentMoniker": "Repositories\\CallToActionRepository .cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CallToActionRepository .cs",
+              "RelativeToolTip": "Repositories\\CallToActionRepository .cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:52:42.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CaseDocumentRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CaseDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CaseDocumentRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CaseDocumentRepository.cs",
+              "RelativeToolTip": "Repositories\\CaseDocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T07:55:10.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CaseViewModel.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\ViewModels\\CaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CaseViewModel.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\ViewModels\\CaseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CaseViewModel.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA0wEIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T22:07:30.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:52:14.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAqwLcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T14:32:36.809Z",
+              "WhenOpened": "2025-12-04T13:53:15.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "HomeViewModel.cs",
               "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\ViewModels\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\HomeViewModel.cs",
               "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\ViewModels\\HomeViewModel.cs",
               "RelativeToolTip": "ViewModels\\HomeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T20:58:26.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:20:41.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CaseController.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\CaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CaseController.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\CaseController.cs",
+              "RelativeToolTip": "Controllers\\CaseController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwEUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:20:47.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CaseFullDescriptionViewModel.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\ViewModels\\CaseFullDescriptionViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CaseFullDescriptionViewModel.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\ViewModels\\CaseFullDescriptionViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CaseFullDescriptionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:38:11.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminUserService.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Services\\AdminUserService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminUserService.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Services\\AdminUserService.cs",
+              "RelativeToolTip": "Services\\AdminUserService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:05:35.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.en.resx",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Resources\\Views\\Home\\Index.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Home\\Index.en.resx",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Resources\\Views\\Home\\Index.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Home\\Index.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-04T22:22:56.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:51:38.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:30:55.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T15:05:05.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CultureController.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\CultureController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CultureController.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\CultureController.cs",
+              "RelativeToolTip": "Controllers\\CultureController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:32:15.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwEwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:20:17.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ITagRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ITagRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITagRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ITagRepository.cs",
+              "RelativeToolTip": "Interfaces\\ITagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:11:13.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TagTranslation.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\TagTranslation.cs",
+              "RelativeDocumentMoniker": "Models\\TagTranslation.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\TagTranslation.cs",
+              "RelativeToolTip": "Models\\TagTranslation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:41:29.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CaseTranslation.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseTranslation.cs",
+              "RelativeDocumentMoniker": "Models\\CaseTranslation.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseTranslation.cs",
+              "RelativeToolTip": "Models\\CaseTranslation.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:02:52.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Case\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Case\\Index.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Case\\Index.cshtml",
+              "RelativeToolTip": "Views\\Case\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:20:29.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Case\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Case\\Details.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Case\\Details.cshtml",
+              "RelativeToolTip": "Views\\Case\\Details.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAqwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T15:11:22.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
@@ -258,188 +689,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T13:53:15.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Case\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Case\\Details.cshtml",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Case\\Details.cshtml",
-              "RelativeToolTip": "Views\\Case\\Details.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAuwEUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T15:11:22.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.en.resx",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Resources\\Views\\Home\\Index.en.resx",
-              "RelativeDocumentMoniker": "Resources\\Views\\Home\\Index.en.resx",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Resources\\Views\\Home\\Index.en.resx",
-              "RelativeToolTip": "Resources\\Views\\Home\\Index.en.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-12-04T22:22:56.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAjwFAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T14:20:17.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Case\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Case\\Index.cshtml",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Case\\Index.cshtml",
-              "RelativeToolTip": "Views\\Case\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T14:20:29.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:52:14.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:20:41.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ICallToActionRepository.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\ICallToActionRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ICallToActionRepository.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\ICallToActionRepository.cs",
-              "RelativeToolTip": "Repositories\\ICallToActionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T20:52:27.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 31,
               "Title": "SeedData.cs",
               "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Data\\SeedData.cs",
               "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Data\\SeedData.cs",
               "RelativeToolTip": "Data\\SeedData.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAPcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAAANcAAAABAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T15:02:02.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CallToActionRepository .cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CallToActionRepository .cs",
-              "RelativeDocumentMoniker": "Repositories\\CallToActionRepository .cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CallToActionRepository .cs",
-              "RelativeToolTip": "Repositories\\CallToActionRepository .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T20:52:42.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CaseViewModel.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\ViewModels\\CaseViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\CaseViewModel.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\ViewModels\\CaseViewModel.cs",
-              "RelativeToolTip": "ViewModels\\CaseViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T22:07:30.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CaseRepository .cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CaseRepository .cs",
-              "RelativeDocumentMoniker": "Repositories\\CaseRepository .cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\CaseRepository .cs",
-              "RelativeToolTip": "Repositories\\CaseRepository .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T20:52:04.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ICaseRepository.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\ICaseRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ICaseRepository.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\ICaseRepository.cs",
-              "RelativeToolTip": "Repositories\\ICaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T20:51:40.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CaseTranslation.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseTranslation.cs",
-              "RelativeDocumentMoniker": "Models\\CaseTranslation.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseTranslation.cs",
-              "RelativeToolTip": "Models\\CaseTranslation.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAADwv0IAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:02:52.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 33,
               "Title": "CaseNoteTranslation.cs",
               "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseNoteTranslation.cs",
               "RelativeDocumentMoniker": "Models\\CaseNoteTranslation.cs",
@@ -452,46 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CaseNote.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseNote.cs",
-              "RelativeDocumentMoniker": "Models\\CaseNote.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseNote.cs",
-              "RelativeToolTip": "Models\\CaseNote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:21:20.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CaseDocumentTranslation.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseDocumentTranslation.cs",
-              "RelativeDocumentMoniker": "Models\\CaseDocumentTranslation.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseDocumentTranslation.cs",
-              "RelativeToolTip": "Models\\CaseDocumentTranslation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T20:40:55.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CaseDocument.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseDocument.cs",
-              "RelativeDocumentMoniker": "Models\\CaseDocument.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseDocument.cs",
-              "RelativeToolTip": "Models\\CaseDocument.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:02:43.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "Case.cs",
               "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\Case.cs",
               "RelativeDocumentMoniker": "Models\\Case.cs",
@@ -504,181 +728,225 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "WhoWeArePageRepository.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\WhoWeArePageRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\WhoWeArePageRepository.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\WhoWeArePageRepository.cs",
-              "RelativeToolTip": "Repositories\\WhoWeArePageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "ICaseRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ICaseRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICaseRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ICaseRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T21:32:29.218Z",
+              "WhenOpened": "2025-12-04T20:51:40.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AdminUserService.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Services\\AdminUserService.cs",
-              "RelativeDocumentMoniker": "Services\\AdminUserService.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Services\\AdminUserService.cs",
-              "RelativeToolTip": "Services\\AdminUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:05:35.687Z",
+              "WhenOpened": "2025-12-05T07:51:34.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 37,
+              "Title": "EditWhoWeAre.cshtml",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Admin\\EditWhoWeAre.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditWhoWeAre.cshtml",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Views\\Admin\\EditWhoWeAre.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditWhoWeAre.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T14:32:36.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwEQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:04:12.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_Layout.ru.resx",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Resources\\Views\\Shared\\_Layout.ru.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Shared\\_Layout.ru.resx",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Resources\\Views\\Shared\\_Layout.ru.resx",
+              "RelativeToolTip": "Resources\\Views\\Shared\\_Layout.ru.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-05T09:09:32.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.ru.resx",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Resources\\Views\\Home\\Index.ru.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Home\\Index.ru.resx",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Resources\\Views\\Home\\Index.ru.resx",
+              "RelativeToolTip": "Resources\\Views\\Home\\Index.ru.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-05T09:09:23.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ICaseNoteRepository .cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ICaseNoteRepository .cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICaseNoteRepository .cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ICaseNoteRepository .cs",
+              "RelativeToolTip": "Interfaces\\ICaseNoteRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:10:10.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CaseDocumentTranslation.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseDocumentTranslation.cs",
+              "RelativeDocumentMoniker": "Models\\CaseDocumentTranslation.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseDocumentTranslation.cs",
+              "RelativeToolTip": "Models\\CaseDocumentTranslation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:40:55.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LawyerTranslation.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\LawyerTranslation.cs",
+              "RelativeDocumentMoniker": "Models\\LawyerTranslation.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\LawyerTranslation.cs",
+              "RelativeToolTip": "Models\\LawyerTranslation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:41:18.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_Layout.en.resx",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Resources\\Views\\Shared\\_Layout.en.resx",
+              "RelativeDocumentMoniker": "Resources\\Views\\Shared\\_Layout.en.resx",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Resources\\Views\\Shared\\_Layout.en.resx",
+              "RelativeToolTip": "Resources\\Views\\Shared\\_Layout.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-05T09:09:26.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CaseDocument.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseDocument.cs",
+              "RelativeDocumentMoniker": "Models\\CaseDocument.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseDocument.cs",
+              "RelativeToolTip": "Models\\CaseDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:02:43.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Lawyer.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\Lawyer.cs",
+              "RelativeDocumentMoniker": "Models\\Lawyer.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\Lawyer.cs",
+              "RelativeToolTip": "Models\\Lawyer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:53:09.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ILawyerRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ILawyerRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ILawyerRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ILawyerRepository.cs",
+              "RelativeToolTip": "Interfaces\\ILawyerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:10:45.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ICaseDocumentRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ICaseDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICaseDocumentRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ICaseDocumentRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICaseDocumentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:09:47.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ICallToActionRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ICallToActionRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICallToActionRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\ICallToActionRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICallToActionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:52:27.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "IWhoWeArePageRepository.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\IWhoWeArePageRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IWhoWeArePageRepository.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\IWhoWeArePageRepository.cs",
-              "RelativeToolTip": "Repositories\\IWhoWeArePageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\IWhoWeArePageRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IWhoWeArePageRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\IWhoWeArePageRepository.cs",
+              "RelativeToolTip": "Interfaces\\IWhoWeArePageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T21:32:01.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CallToActionBlockTranslation.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CallToActionBlockTranslation.cs",
-              "RelativeDocumentMoniker": "Models\\CallToActionBlockTranslation.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CallToActionBlockTranslation.cs",
-              "RelativeToolTip": "Models\\CallToActionBlockTranslation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 51,
+              "Title": "IAdminUserRepository.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\IAdminUserRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAdminUserRepository.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Interfaces\\IAdminUserRepository.cs",
+              "RelativeToolTip": "Interfaces\\IAdminUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:03:01.623Z",
+              "WhenOpened": "2025-12-04T13:51:48.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "WhoWeArePage.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\WhoWeArePage.cs",
-              "RelativeDocumentMoniker": "Models\\WhoWeArePage.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\WhoWeArePage.cs",
-              "RelativeToolTip": "Models\\WhoWeArePage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:03:06.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "WhoWeArePageTranslation.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\WhoWeArePageTranslation.cs",
-              "RelativeDocumentMoniker": "Models\\WhoWeArePageTranslation.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\WhoWeArePageTranslation.cs",
-              "RelativeToolTip": "Models\\WhoWeArePageTranslation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:03:11.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:04:12.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "CaseController.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\CaseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CaseController.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\CaseController.cs",
-              "RelativeToolTip": "Controllers\\CaseController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:20:47.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAYwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:51:38.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "TagTranslation.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\TagTranslation.cs",
-              "RelativeDocumentMoniker": "Models\\TagTranslation.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\TagTranslation.cs",
-              "RelativeToolTip": "Models\\TagTranslation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T20:41:29.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\Tag.cs",
-              "RelativeDocumentMoniker": "Models\\Tag.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\Tag.cs",
-              "RelativeToolTip": "Models\\Tag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T20:41:23.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "LawyerTranslation.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\LawyerTranslation.cs",
-              "RelativeDocumentMoniker": "Models\\LawyerTranslation.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\LawyerTranslation.cs",
-              "RelativeToolTip": "Models\\LawyerTranslation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T20:41:18.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Lawyer.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\Lawyer.cs",
-              "RelativeDocumentMoniker": "Models\\Lawyer.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\Lawyer.cs",
-              "RelativeToolTip": "Models\\Lawyer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:53:09.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "CallToActionBlock.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CallToActionBlock.cs",
-              "RelativeDocumentMoniker": "Models\\CallToActionBlock.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CallToActionBlock.cs",
-              "RelativeToolTip": "Models\\CallToActionBlock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:02:57.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 52,
               "Title": "AdminUser.cs",
               "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\AdminUser.cs",
               "RelativeDocumentMoniker": "Models\\AdminUser.cs",
@@ -686,23 +954,62 @@
               "RelativeToolTip": "Models\\AdminUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:51:32.75Z"
+              "WhenOpened": "2025-12-04T13:51:32.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-04T15:05:05.811Z"
+              "DocumentIndex": 53,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "Models\\Tag.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\Tag.cs",
+              "RelativeToolTip": "Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T20:41:23.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 54,
+              "Title": "CaseNote.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseNote.cs",
+              "RelativeDocumentMoniker": "Models\\CaseNote.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\CaseNote.cs",
+              "RelativeToolTip": "Models\\CaseNote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:21:20.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "WhoWeArePage.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\WhoWeArePage.cs",
+              "RelativeDocumentMoniker": "Models\\WhoWeArePage.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\WhoWeArePage.cs",
+              "RelativeToolTip": "Models\\WhoWeArePage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:03:06.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "WhoWeArePageTranslation.cs",
+              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\WhoWeArePageTranslation.cs",
+              "RelativeDocumentMoniker": "Models\\WhoWeArePageTranslation.cs",
+              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Models\\WhoWeArePageTranslation.cs",
+              "RelativeToolTip": "Models\\WhoWeArePageTranslation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T14:03:11.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
               "Title": "LibreTranslateService.cs",
               "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Services\\LibreTranslateService.cs",
               "RelativeDocumentMoniker": "Services\\LibreTranslateService.cs",
@@ -714,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 58,
               "Title": "ITranslationService.cs",
               "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Services\\ITranslationService.cs",
               "RelativeDocumentMoniker": "Services\\ITranslationService.cs",
@@ -723,30 +1030,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T15:04:48.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IAdminUserRepository.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\IAdminUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IAdminUserRepository.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\IAdminUserRepository.cs",
-              "RelativeToolTip": "Repositories\\IAdminUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:51:48.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "AdminUserRepository.cs",
-              "DocumentMoniker": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\AdminUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\AdminUserRepository.cs",
-              "ToolTip": "D:\\Commits\\TestTaskForPRAS_2\\NewsPortal\\Repositories\\AdminUserRepository.cs",
-              "RelativeToolTip": "Repositories\\AdminUserRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:51:44.465Z"
             }
           ]
         },

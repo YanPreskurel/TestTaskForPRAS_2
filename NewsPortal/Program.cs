@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using NewsPortal.Data;
+using NewsPortal.Interfaces;
 using NewsPortal.Repositories;
 using NewsPortal.Services;
 using System.Globalization;
@@ -16,7 +17,10 @@ builder.Services.AddControllersWithViews()
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
+builder.Services.AddScoped<ICaseDocumentRepository, CaseDocumentRepository>();
+builder.Services.AddScoped<ICaseNoteRepository, CaseNoteRepository>();
+builder.Services.AddScoped<ILawyerRepository, LawyerRepository>();
+builder.Services.AddScoped<ITagRepository, TagRepository>();
 builder.Services.AddScoped<ICaseRepository, CaseRepository>();
 builder.Services.AddScoped<IWhoWeArePageRepository, WhoWeArePageRepository>();
 builder.Services.AddScoped<ICallToActionRepository, CallToActionRepository>();

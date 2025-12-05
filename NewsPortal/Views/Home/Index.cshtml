@@ -50,12 +50,12 @@
 {
     <section class="section-grey">
         <div class="content">
-            <section class="container" style="text-align:left;">
-                <h1>@Localizer["Cases"]</h1>
+            <section class="container">
+                <h1>Кейсы</h1>
             </section>
 
             <div class="cards m-type-2 m-type-2a">
-                @foreach (var c in cases)
+                @foreach (var c in Model.Cases)
                 {
                     <a href="/case/details/@c.Id" class="cards__item">
                         <div class="e-status" style="color:@c.StatusColor;">@c.Status</div>

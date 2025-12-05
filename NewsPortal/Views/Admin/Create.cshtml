@@ -1,0 +1,104 @@
+﻿@model NewsPortal.ViewModels.CaseViewModel
+
+@{
+    ViewData["Title"] = "Добавить кейс";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+
+    <div class="row">
+        <!-- Левая колонка: русский -->
+        <div class="col-md-6">
+            <h4>Русский перевод</h4>
+
+            <input type="hidden" name="Language" value="ru" />
+
+            <div class="form-group">
+                <label>Название кейса</label>
+                <input name="Title_ru" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Краткое описание</label>
+                <textarea name="ShortDescription_ru" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Страна</label>
+                <input name="Country_ru" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Организация</label>
+                <input name="Organization_ru" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Статус</label>
+                <input name="Status_ru" class="form-control" />
+            </div>
+
+            <hr />
+            <h5>Полное описание (RU)</h5>
+            <div class="form-group">
+                <label>Номер сообщения</label>
+                <input name="FullDescription_MessageNumber_ru" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Абзац 1</label>
+                <textarea name="FullDescription_Paragraph1_ru" class="form-control"></textarea>
+            </div>
+            <!-- Добавьте остальные поля FullDescription для русского -->
+        </div>
+
+        <!-- Правая колонка: английский -->
+        <div class="col-md-6">
+            <h4>English Translation</h4>
+
+            <input type="hidden" name="Language_en" value="en" />
+
+            <div class="form-group">
+                <label>Title</label>
+                <input name="Title_en" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Short Description</label>
+                <textarea name="ShortDescription_en" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Country</label>
+                <input name="Country_en" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Organization</label>
+                <input name="Organization_en" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label>Status</label>
+                <input name="Status_en" class="form-control" />
+            </div>
+
+            <hr />
+            <h5>Full Description (EN)</h5>
+            <div class="form-group">
+                <label>Message Number</label>
+                <input name="FullDescription_MessageNumber_en" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Paragraph 1</label>
+                <textarea name="FullDescription_Paragraph1_en" class="form-control"></textarea>
+            </div>
+            <!-- Добавьте остальные поля FullDescription для английского -->
+        </div>
+    </div>
+
+    <hr />
+    <button type="submit" class="btn btn-success">Сохранить</button>
+    <a href="@Url.Action("Index", "Case")" class="btn btn-secondary">Отмена</a>
+</form>

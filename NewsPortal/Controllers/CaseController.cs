@@ -1,75 +1,72 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using NewsPortal.Data;
+using NewsPortal.Interfaces;
+using NewsPortal.ViewModels;
 
 public class CaseController : BaseController
 {
-    private readonly AppDbContext _db;
+    private readonly ICaseRepository _caseRepo;
+    private readonly ICaseDocumentRepository _docRepo;
+    private readonly ITagRepository _tagRepo;
+    private readonly ILawyerRepository _lawyerRepo;
+    private readonly ICaseNoteRepository _noteRepo;
+    private readonly ICallToActionRepository _ctaRepo; 
 
-    public CaseController(AppDbContext db)
+    public CaseController(
+        ICaseRepository caseRepo,
+        ICaseDocumentRepository docRepo,
+        ITagRepository tagRepo,
+        ILawyerRepository lawyerRepo,
+        ICaseNoteRepository noteRepo,
+        ICallToActionRepository ctaRepo)
     {
-        _db = db;
+        _caseRepo = caseRepo;
+        _docRepo = docRepo;
+        _tagRepo = tagRepo;
+        _lawyerRepo = lawyerRepo;
+        _noteRepo = noteRepo;
+        _ctaRepo = ctaRepo;
     }
 
     public async Task<IActionResult> Details(int id)
     {
         var lang = Request.Cookies["lang"] ?? "ru";
 
-        var item = await _db.Cases
-            .Include(c => c.Translations)
-                .ThenInclude(t => t.CaseFullDescription)
-            .FirstOrDefaultAsync(x => x.Id == id);
-
+        var item = await _caseRepo.GetByIdWithTranslationsAsync(id);
         if (item == null)
             return NotFound();
 
-        // Документы
-        ViewBag.Documents = _db.CaseDocuments
-            .Include(d => d.Translations)
-            .ToList();
-
-        // Теги
-        ViewBag.Tags = _db.Tags
-            .Include(t => t.Translations)
-            .ToList();
-
-        // 🔥 Адвокаты
-        ViewBag.Lawyers = _db.Lawyers
-            .Include(l => l.Translations)
-            .ToList();
-
-        // 🔥 Пояснения
-        ViewBag.Notes = _db.CaseNotes
-            .Include(n => n.Translations)
-            .ToList();
-
-        // Похожие кейсы
-        ViewBag.Cases = _db.Cases.Include(c => c.Translations).Take(3).ToList();
-
-        ViewBag.CTA = new
-        {
-            Title = "У вас есть вопрос?",
-            Text = "Наша компания осуществляет поддержку и профессиональную юридическую консультацию имигрантам за границей",
-            ButtonText = "Получить консультацию"
-        };
+        ViewBag.Documents = await _docRepo.GetAllWithTranslationsAsync();
+        ViewBag.Tags = await _tagRepo.GetAllWithTranslationsAsync(lang);
+        ViewBag.Lawyers = await _lawyerRepo.GetAllWithTranslationsAsync();
+        ViewBag.Notes = await _noteRepo.GetAllWithTranslationsAsync();
+        ViewBag.Cases = await _caseRepo.GetAllWithTranslationsAsync(lang);
+        ViewBag.CTA = await _ctaRepo.GetFirstWithTranslationAsync(lang);
 
         ViewBag.Lang = lang;
+
         return View(item);
     }
 
-
-
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
         var lang = Request.Cookies["lang"] ?? "ru";
 
-        var cases = _db.Cases
-                       .Include(c => c.Translations)
-                       .ToList();
+        var cases = await _caseRepo.GetAllWithTranslationsAsync(lang);
+
+        // Преобразуем модели Case в CaseViewModel
+        var caseViewModels = cases.Select(c => new CaseViewModel
+        {
+            Id = c.Id,
+            Title = c.Translations.FirstOrDefault(t => t.Language == lang)?.Title ?? "",
+            Country = c.Translations.FirstOrDefault(t => t.Language == lang)?.Country ?? "",
+            Organization = c.Translations.FirstOrDefault(t => t.Language == lang)?.Organization ?? "",
+            ShortDescription = c.Translations.FirstOrDefault(t => t.Language == lang)?.ShortDescription ?? "",
+            Status = c.Translations.FirstOrDefault(t => t.Language == lang)?.Status ?? "",
+            FlagImagePath = c.FlagImagePath,
+            StatusColor = c.StatusColor
+        }).ToList();
 
         ViewBag.Lang = lang;
-
-        return View(cases);
+        return View(caseViewModels); // Передаем список ViewModel в представление
     }
-
 }

@@ -1,6 +1,6 @@
 ﻿using NewsPortal.Models;
 
-namespace NewsPortal.Repositories
+namespace NewsPortal.Interfaces
 {
     public interface IAdminUserRepository
     {

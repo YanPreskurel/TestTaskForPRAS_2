@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿
+
+
+using System.Collections.Generic;
 using NewsPortal.Models;
 
 namespace NewsPortal.ViewModels

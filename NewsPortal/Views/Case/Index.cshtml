@@ -1,33 +1,52 @@
-﻿@using NewsPortal.ViewModels
-@model HomeViewModel
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using NewsPortal.ViewModels
+@model List<CaseViewModel>
+@inject IViewLocalizer Localizer
 
-<section class="cta container">
-    <h2>@Model.CTA?.Title</h2>
-    <p>@Model.CTA?.Text</p>
-    <a href="/contact" class="btn btn-primary">@Model.CTA?.ButtonText</a>
-</section>
+@{
+    var isAdmin = User.Identity?.IsAuthenticated == true && User.IsInRole("Admin");
+}
 
-@if (Model.Cases != null && Model.Cases.Any())
+@if (Model != null && Model.Any())
 {
-    <div class="cases container">
-        @foreach (var c in Model.Cases)
-        {
-            <div class="case-item">
-                <div class="e-status" style="color:@c.StatusColor;">
-                    @c.Status
-                </div>
+    <section class="section-grey">
+        <div class="content">
+            <section class="container" style="text-align:left;">
+                <h1>@Localizer["Cases"]</h1>
 
-                <h3>@c.Title</h3>
-                <div class="e-location">
-                    <span class="flag-icon"><img src="@c.FlagImagePath" alt=""></span>
-                    @c.Country <span class="e-sep">/</span> @c.Organization
-                </div>
-                <p>@c.ShortDescription</p>
+                @if (isAdmin)
+                {
+                    <a href="@Url.Action("Create", "Admin")" class="btn btn-primary mb-3 admin-add-btn">Добавить кейс</a>
+                }
+            </section>
 
-                <a href="/case/details/@c.Id" class="btn btn-outline-primary">
-                    Read More
-                </a>
+            <div class="cards m-type-2 m-type-2a">
+                @foreach (var c in Model)
+                {
+                    <div class="cards__item admin-case-item" style="position: relative;">
+                        <a href="/case/details/@c.Id" class="case-link" style="display: block; text-decoration: none; color: inherit;">
+                            <div class="e-status" style="color:@c.StatusColor;">@c.Status</div>
+                            <h2>@c.Title</h2>
+                            <div class="e-location">
+                                <span class="flag-icon"><img src="@c.FlagImagePath" alt="" /></span>
+                                @c.Country <span class="e-sep">/</span> @c.Organization
+                            </div>
+                            <p>@c.ShortDescription</p>
+                        </a>
+
+                        @if (isAdmin)
+                        {
+                            <div class="admin-buttons" style="position: absolute; top: 10px; right: 10px; display: flex; gap: 10px;">
+                                <a href="@Url.Action("Edit", "Admin", new { id = c.Id, lang = c.Language })" class="btn btn-primary btn-sm">Редактировать</a>
+                                <form asp-action="DeleteCase" asp-controller="Admin" method="post" class="d-inline">
+                                    <input type="hidden" name="id" value="@c.Id" />
+                                    <button type="submit" class="btn btn-primary btn-sm" onclick="return confirm('Вы уверены, что хотите удалить этот кейс?');">Удалить</button>
+                                </form>
+                            </div>
+                        }
+                    </div>
+                }
             </div>
-        }
-    </div>
+        </div>
+    </section>
 }

@@ -20,41 +20,48 @@ public class HomeController : BaseController
 
     public async Task<IActionResult> Index()
     {
-        var lang = Request.Cookies["lang"] ?? "ru";
+        var lang = CurrentLanguage ?? "ru";
 
-        // Кто мы
+
+        // Подгружаем переводы для раздела "Кто мы"
         var whoTranslation = await _whoRepo.GetPageWithTranslationAsync(lang);
 
-        // CTA
+        // Подгружаем CTA
         var ctaTranslation = await _ctaRepo.GetFirstWithTranslationAsync(lang);
 
-        // Кейсы
+        // Подгружаем кейсы с переводами
         var cases = await _caseRepo.GetAllWithTranslationsAsync(lang);
 
+        // Формируем ViewModel для HomeView
         var model = new HomeViewModel
         {
+            CurrentLanguage = lang,
             WhoWeAre = whoTranslation?.WhoWeArePage ?? new WhoWeArePage(),
             CTA = ctaTranslation!,
             Cases = cases.Select(c =>
             {
-                var t = c.Translations.FirstOrDefault(tr => tr.Language == lang) ?? c.Translations.FirstOrDefault()!;
+                // Берем перевод текущего языка
+                var translation = c.Translations.FirstOrDefault(t => t.Language == lang)
+                                  ?? c.Translations.FirstOrDefault()!; // fallback
+
                 return new CaseViewModel
                 {
                     Id = c.Id,
-                    Title = t.Title,
-                    Country = t.Country,
-                    Organization = t.Organization,
-                    ShortDescription = t.ShortDescription,
-                    Status = t.Status,
+                    Language = lang,
+                    Title = translation.Title,
+                    ShortDescription = translation.ShortDescription,
+                    Country = translation.Country,
+                    Organization = translation.Organization,
+                    Status = translation.Status,
                     FlagImagePath = c.FlagImagePath,
                     StatusColor = c.StatusColor
                 };
-            }).ToList(),
-            CurrentLanguage = lang
+            }).ToList()
         };
 
         return View(model);
     }
+
 
 
 

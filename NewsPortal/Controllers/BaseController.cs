@@ -14,4 +14,19 @@ public class BaseController : Controller
 
         base.OnActionExecuting(context);
     }
+
+    protected string CurrentLanguage
+    {
+        get
+        {
+            var cultureCookie = Request.Cookies[CookieRequestCultureProvider.DefaultCookieName];
+            if (!string.IsNullOrEmpty(cultureCookie))
+            {
+                var requestCulture = CookieRequestCultureProvider.ParseCookieValue(cultureCookie);
+                return requestCulture.Cultures.FirstOrDefault().Value ?? "ru";
+            }
+            return "ru";
+        }
+    }
+
 }

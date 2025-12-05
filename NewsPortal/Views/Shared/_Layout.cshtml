@@ -118,16 +118,18 @@
         <div class="footer">
             <div class="container">
                 <div class="footer__top" style="display:flex; justify-content:space-between; align-items:center;">
-                    <nav class="footer__nav">
-                        <ul>
-                            <li><a href="/case/list">@Localizer["Cases"]</a></li>
-                            <li><a href="/services">@Localizer["Services"]</a></li>
-                            <li><a href="/contact">@Localizer["AskQuestion"]</a></li>
-                            <li><a href="/vacancies">@Localizer["Vacancies"]</a></li>
-                            <li><a href="/who-we-are">@Localizer["WhoWeAre"]</a></li>
-                            <li><a href="/contact">@Localizer["Contacts"]</a></li>
-                        </ul>
-                    </nav>
+                        <nav class="footer__nav">
+                            <ul>
+                                <li><a asp-controller="Case" asp-action="Index">@Localizer["Cases"]</a></li>
+                                <li><a asp-controller="Home" asp-action="Index" asp-fragment="services">@Localizer["Services"]</a></li>
+                                <li><a asp-controller="Home" asp-action="Index" asp-fragment="contact">@Localizer["AskQuestion"]</a></li>
+                                <li><a asp-controller="Home" asp-action="Index" asp-fragment="vacancies">@Localizer["Vacancies"]</a></li>
+                                <li><a asp-controller="Home" asp-action="Index" asp-fragment="who-we-are">@Localizer["WhoWeAre"]</a></li>
+                                <li><a asp-controller="Home" asp-action="Index" asp-fragment="contact">@Localizer["Contacts"]</a></li>
+                            </ul>
+                        </nav>
+
+
                     <div style="display:flex; align-items:center; gap:20px;">
                         <div class="footer__email">
                             <a href="mailto:info@vadimdrozdov.ch">info@vadimdrozdov.ch</a>
@@ -147,7 +149,7 @@
                 </div>
                 <div class="footer__bottom">
                     <div class="e-copy">&copy; Company NoName 1996-2020</div>
-                    <a href="#" class="e-design">Разработка дизайна ― компания PRAS</a>
+                        <a href="#" class="e-design">@Localizer["DesignByPRAS"]</a>
                 </div>
             </div>
         </div>
